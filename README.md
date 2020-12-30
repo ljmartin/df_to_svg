@@ -16,6 +16,6 @@ the problem here (apart from the annoying vertical white lines) is the text is w
 
 # even better
 
-the real trick is to not do this at all. Most times I just want to copy a dataframe of hyperparameters or results or something into a word document. SVG format doesn't explicitly have a "table" - it's just a trick. But HTML does - and if you copy paste an html table into word it will copy is as a real table.
+the real trick is to not do this at all. Most times I just want to copy a dataframe of hyperparameters or results or something into a word document. SVG format doesn't explicitly have a "table" - it's just a trick. But HTML does - and if you copy paste an html table into word it will copy is as a real table. It's only a few clicks to format this into a nice looking jupyter-style table. 
 
 see `./code/write_html.ipynb` (solution is from https://stackoverflow.com/a/62716643/3089865)
