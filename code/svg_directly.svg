@@ -1,0 +1,71 @@
+<svg version="1.1"
+     baseProfile="full"
+     width="400" height="300"
+     xmlns="http://www.w3.org/2000/svg">
+    <style>
+     .normal { font: normal 12px sans-serif; fill: black; dominant-baseline: central; }
+     .heavy { font: bold 12px sans-serif; fill: black; dominant-baseline: central; }
+    </style>
+   
+  <text x="40.0" y="13.636363636363637" text-anchor="middle" class="heavy">sepal.length</text>  
+  <text x="120.0" y="13.636363636363637" text-anchor="middle" class="heavy">sepal.width</text>  
+  <text x="200.0" y="13.636363636363637" text-anchor="middle" class="heavy">petal.length</text>  
+  <text x="280.0" y="13.636363636363637" text-anchor="middle" class="heavy">petal.width</text>  
+  <text x="360.0" y="13.636363636363637" text-anchor="middle" class="heavy">variety</text>  
+  <line x1="0" y1="27.272727272727273" x2="400" y2="27.272727272727273" style="stroke:rgb(0,0,0);stroke-width:0.5" />
+  <rect x="0" y="27.272727272727273" width="400" height="27.272727272727273" style="fill:#eee;fill-opacity:0.8;stroke-width:0;stroke:rgb(0,0,0)" />
+  <text x="72.0" y="40.90909090909091" text-anchor="end" class="normal">5.1</text>  
+  <text x="152.0" y="40.90909090909091" text-anchor="end" class="normal">3.5</text>  
+  <text x="232.0" y="40.90909090909091" text-anchor="end" class="normal">1.4</text>  
+  <text x="312.0" y="40.90909090909091" text-anchor="end" class="normal">0.2</text>  
+  <text x="360.0" y="40.90909090909091" text-anchor="middle" class="normal">Setosa</text>  
+  <text x="72.0" y="68.18181818181817" text-anchor="end" class="normal">4.9</text>  
+  <text x="152.0" y="68.18181818181817" text-anchor="end" class="normal">3.0</text>  
+  <text x="232.0" y="68.18181818181817" text-anchor="end" class="normal">1.4</text>  
+  <text x="312.0" y="68.18181818181817" text-anchor="end" class="normal">0.2</text>  
+  <text x="360.0" y="68.18181818181817" text-anchor="middle" class="normal">Setosa</text>  
+  <rect x="0" y="81.81818181818181" width="400" height="27.272727272727273" style="fill:#eee;fill-opacity:0.8;stroke-width:0;stroke:rgb(0,0,0)" />
+  <text x="72.0" y="95.45454545454545" text-anchor="end" class="normal">4.7</text>  
+  <text x="152.0" y="95.45454545454545" text-anchor="end" class="normal">3.2</text>  
+  <text x="232.0" y="95.45454545454545" text-anchor="end" class="normal">1.3</text>  
+  <text x="312.0" y="95.45454545454545" text-anchor="end" class="normal">0.2</text>  
+  <text x="360.0" y="95.45454545454545" text-anchor="middle" class="normal">Setosa</text>  
+  <text x="72.0" y="122.72727272727273" text-anchor="end" class="normal">4.6</text>  
+  <text x="152.0" y="122.72727272727273" text-anchor="end" class="normal">3.1</text>  
+  <text x="232.0" y="122.72727272727273" text-anchor="end" class="normal">1.5</text>  
+  <text x="312.0" y="122.72727272727273" text-anchor="end" class="normal">0.2</text>  
+  <text x="360.0" y="122.72727272727273" text-anchor="middle" class="normal">Setosa</text>  
+  <rect x="0" y="136.36363636363637" width="400" height="27.272727272727273" style="fill:#eee;fill-opacity:0.8;stroke-width:0;stroke:rgb(0,0,0)" />
+  <text x="72.0" y="150.0" text-anchor="end" class="normal">5.0</text>  
+  <text x="152.0" y="150.0" text-anchor="end" class="normal">3.6</text>  
+  <text x="232.0" y="150.0" text-anchor="end" class="normal">1.4</text>  
+  <text x="312.0" y="150.0" text-anchor="end" class="normal">0.2</text>  
+  <text x="360.0" y="150.0" text-anchor="middle" class="normal">Setosa</text>  
+  <text x="72.0" y="177.27272727272728" text-anchor="end" class="normal">5.4</text>  
+  <text x="152.0" y="177.27272727272728" text-anchor="end" class="normal">3.9</text>  
+  <text x="232.0" y="177.27272727272728" text-anchor="end" class="normal">1.7</text>  
+  <text x="312.0" y="177.27272727272728" text-anchor="end" class="normal">0.4</text>  
+  <text x="360.0" y="177.27272727272728" text-anchor="middle" class="normal">Setosa</text>  
+  <rect x="0" y="190.9090909090909" width="400" height="27.272727272727273" style="fill:#eee;fill-opacity:0.8;stroke-width:0;stroke:rgb(0,0,0)" />
+  <text x="72.0" y="204.54545454545456" text-anchor="end" class="normal">4.6</text>  
+  <text x="152.0" y="204.54545454545456" text-anchor="end" class="normal">3.4</text>  
+  <text x="232.0" y="204.54545454545456" text-anchor="end" class="normal">1.4</text>  
+  <text x="312.0" y="204.54545454545456" text-anchor="end" class="normal">0.3</text>  
+  <text x="360.0" y="204.54545454545456" text-anchor="middle" class="normal">Setosa</text>  
+  <text x="72.0" y="231.81818181818184" text-anchor="end" class="normal">5.0</text>  
+  <text x="152.0" y="231.81818181818184" text-anchor="end" class="normal">3.4</text>  
+  <text x="232.0" y="231.81818181818184" text-anchor="end" class="normal">1.5</text>  
+  <text x="312.0" y="231.81818181818184" text-anchor="end" class="normal">0.2</text>  
+  <text x="360.0" y="231.81818181818184" text-anchor="middle" class="normal">Setosa</text>  
+  <rect x="0" y="245.45454545454547" width="400" height="27.272727272727273" style="fill:#eee;fill-opacity:0.8;stroke-width:0;stroke:rgb(0,0,0)" />
+  <text x="72.0" y="259.0909090909091" text-anchor="end" class="normal">4.4</text>  
+  <text x="152.0" y="259.0909090909091" text-anchor="end" class="normal">2.9</text>  
+  <text x="232.0" y="259.0909090909091" text-anchor="end" class="normal">1.4</text>  
+  <text x="312.0" y="259.0909090909091" text-anchor="end" class="normal">0.2</text>  
+  <text x="360.0" y="259.0909090909091" text-anchor="middle" class="normal">Setosa</text>  
+  <text x="72.0" y="286.3636363636364" text-anchor="end" class="normal">4.9</text>  
+  <text x="152.0" y="286.3636363636364" text-anchor="end" class="normal">3.1</text>  
+  <text x="232.0" y="286.3636363636364" text-anchor="end" class="normal">1.5</text>  
+  <text x="312.0" y="286.3636363636364" text-anchor="end" class="normal">0.1</text>  
+  <text x="360.0" y="286.3636363636364" text-anchor="middle" class="normal">Setosa</text>  
+ </svg>
