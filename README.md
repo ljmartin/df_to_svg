@@ -6,15 +6,18 @@ This code emulates that rendering and outputs to `.svg`, making it infinitely hi
 
 # results
 
+## with matplotlib
+
 using matplotlib you can get a close approximation (see `./code/write_svg_matplotlib.ipynb`:
 
 ![mplsvg](./code/svg_matplotlib.svg "one")
 
-the problem here (apart from the annoying vertical white lines) is the text is written in `<path>` objects, so it can't be highlighted and the file is larger than it needs to be. it's really just made up of rectangles, lines, and text so these can be written directly, like below. It's a tenth of the filsize and looks pretty close to a jupyter notebook rendering. (see `./code/write_svg_directly.ipynb`:
+## writing SVG elements directly
+the problem with the MPL approach (apart from the annoying vertical white lines) is the text is written in `<path>` objects, so it can't be highlighted and the file is larger than it needs to be. it's really just made up of rectangles, lines, and text so these can be written directly, like below. It's a tenth of the filsize and looks pretty close to a jupyter notebook rendering. (see `./code/write_svg_directly.ipynb`:
 
 ![dirsvg](./code/svg_directly.svg "two")
 
-# even better
+## even better
 
 the real trick is to not do this at all. Most times I just want to copy a dataframe of hyperparameters or results or something into a word document. SVG format doesn't explicitly have a "table" - it's just a trick. But HTML does - and if you copy paste an html table into word it will copy is as a real table. It's only a few clicks to format this into a nice looking jupyter-style table. 
 
